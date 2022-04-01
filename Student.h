@@ -7,9 +7,9 @@ using namespace std;
 class Student {
 public:
 	string name;
-	int age;
+	string age;
 
 	string getInfo() {
-		return name + ": age = " + to_string(age);
+		return name + ": age = " + age;
 	}
 };
