@@ -1,9 +1,9 @@
 #include "Student.h"
 
 int main() {
-	Student st1;
-	Student st2;
-	Student st3;
+	Student st1("Alex", "14");
+	Student st2("Nastya", "13");
+	Student st3("Nikita", "15");
 
 	st1.setName("Alex");
 	st2.setName("Kate");

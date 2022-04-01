@@ -9,7 +9,15 @@ private:
 	string name;
 	string age;
 
+	Student() {
+	}
+
 public:
+	Student(string name, string age) {
+		this->name = name;
+		this->age = age;
+	}
+	
 	string getName() {
 		return name;
 	}
