@@ -14,24 +14,24 @@ public:
 		return name;
 	}
 
-	void setName(string n) {
-		name = n;
+	void setName(string initName) {
+		this->name = name;
 	}
 
 	int getAge() {
 		return stoi(age);
 	}
 
-	void setAge(int a) {
-		if (a >= 14 && a <= 80) {
-			age = to_string(a);
+	void setAge(int age) {
+		if (age >= 14 && age <= 80) {
+			this->age = to_string(age);
 		}
 	}
 
-	void setAge(string a) {
-		int number = stoi(a);
+	void setAge(string age) {
+		int number = stoi(age);
 		if (number >= 14 && number <= 80) {
-			age = a;
+			this->age = age;
 		}
 	}
 

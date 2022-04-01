@@ -2,10 +2,12 @@
 
 int main() {
 	Student st1;
+	Student st2;
+	Student st3;
 
 	st1.setName("Alex");
-	st1.setAge(14);
-	st1.setAge("-15");
+	st2.setName("Kate");
+	st3.setName("Peter");
 	
 	int dependency = st1.getAge();
 
