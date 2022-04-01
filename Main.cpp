@@ -1,16 +1,15 @@
 #include "Student.h"
 
 int main() {
-	Student alex;
+	Student st1;
 
-	alex.name = "Alex";
-	alex.age = 15;
+	st1.setName("Alex");
+	st1.setAge(14);
+	st1.setAge("-15");
+	
+	int dependency = st1.getAge();
 
-	alex.age = -15;
-
-	int dependency = alex.age;
-
-	cout << alex.getInfo() << endl;
+	cout << st1.getInfo() << endl;
 
 	return 0;
 }
