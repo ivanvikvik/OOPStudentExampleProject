@@ -1,8 +1,5 @@
 #pragma once
-#include <iostream>
-#include <string>
-
-using namespace std;
+#include "Header.h"
 
 class Student {
 private:
